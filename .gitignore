@@ -1,0 +1,54 @@
+# Ambiente virtual
+venv/
+.env
+.env.*
+
+# Arquivos e pastas temporários do Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Arquivos de log
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Arquivos de configuração do VSCode
+.vscode/
+
+# Dados locais
+data_lake/raw/
+data_lake/processed/
+data_lake/temp/
+data_warehouse/
+results/
+models/
+
+# Arquivos grandes de machine learning
+*.h5
+*.pkl
+*.joblib
+*.sav
+
+# Arquivos CSVs, Excel e outros formatos comuns de dados
+*.csv
+*.xls
+*.xlsx
+*.parquet
+*.json
+*.zip
+
+# Airflow
+airflow/airflow.db
+airflow/airflow-webserver.pid
+airflow/logs/
+airflow/dags/__pycache__/
+airflow/venv/
+
+# Configuração PyCharm (se usar)
+.idea/
+
+# MacOS / Linux / Windows
+.DS_Store
+Thumbs.db
